@@ -5,5 +5,5 @@
 # My Social 
 <a href="https://discord.com/users/267420022672982016">
 <img alt"Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>
-<a href="https://instagram.com/bbaskot">
+<a href="https://instagram.com/debugrayan">
 <img alt"Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
