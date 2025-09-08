@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>English-Arabic Word Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>English-Arabic Word Trainer</h1>
+    <div class="slider">
+      <div class="card" id="card">
+        <div class="word" id="english-word"></div>
+        <div class="translation" id="arabic-word"></div>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="prev">Prev</button>
+      <button id="next">Next</button>
+    </div>
+    <div class="challenge">
+      <button id="scramble">Challenge</button>
+      <div id="scramble-area" class="hidden">
+        <p id="scrambled"></p>
+        <input type="text" id="guess" placeholder="Type the word" />
+        <button id="check">Check</button>
+        <p id="result"></p>
+      </div>
+    </div>
+    <div class="add-word">
+      <h2>Add new word</h2>
+      <input id="new-en" placeholder="English word" />
+      <input id="new-ar" placeholder="Arabic translation" />
+      <button id="add">Add</button>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
